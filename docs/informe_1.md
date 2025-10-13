@@ -430,7 +430,8 @@ Como usuario, quiero ver mi saldo, movimientos y transferir dinero, para control
 
 - Mostrar saldo total disponible.
 - Listar activos con su valor actual.
-- Transferencias internas o bancarias.
+- Posibilidad de depositar y retirar fondos.
+- Mostrar el estado actual de las cuentas vinculadas.
 - Notifiacion de transferencia exitosa o error
 - Incluir últimos movimientos.
 - Transacciones protegidas.
@@ -455,6 +456,7 @@ Como usuario, quiero ver un panel donde pueda monitorear en tiempo real los acti
 **Criterios de aceptación:**
 
 - Precios actualizados y variaciones.
+- El usuario puede añadir o quitar activos del panel.
 - Gráficos con indicadores visuales.
 - Actualización automática de información.
 - Datos en vivo en menos de 2 segundos.
