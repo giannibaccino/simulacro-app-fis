@@ -462,120 +462,38 @@ Como usuario, quiero ver un panel donde pueda monitorear en tiempo real los acti
 
 ---
 
-### **MUST HAVE**
+### **SHOULD HAVE**
 
-### **US-010 – Seteo de límites de inversión (Stop Loss / Take Profit)**
-
-**User Story:**
-
-Como usuario, quiero poder establecer límites automáticos de venta o compra para controlar riesgos y asegurar ganancias.
-
-**Criterios de aceptación:**
-
-- Definir stop loss y take profit por activo.
-- Ejecución automática al alcanzar límite.
-- Visualización y edición de límites configurados.
-- Notificación al usuario cuando se ejecuten.
-- Aplicación correcta de los límites sin errores.
-
----
-
-### **US-011 – Notificaciones**
-
-**User Story:**
+### **US-009 – Notificaciones**
 
 Como usuario, quiero recibir notificaciones sobre mis operaciones para mantenerme informado en tiempo real.
 
 **Criterios de aceptación:**
 
-- Notificación de operaciones exitosas o con error.
+- Notificaciones en tiempo real.
 - Historial de notificaciones disponible.
 - Notificaciones claras, breves y precisas.
-- Activación o desactivación por tipo.
+- Posibilidad de silenciar o activar.
 - Entrega en menos de 3 segundos desde el evento.
 
 ---
 
-### **US-012 – Borrar cuenta**
-
-**User Story:**
-
-Como usuario, quiero poder eliminar mi cuenta sin perder mi billetera, para dejar de usar la app pero mantener mis activos.
-
-**Criterios de aceptación:**
-
-- Eliminación desde el perfil del usuario.
-- Confirmación antes de ejecutar.
-- La billetera permanece activa o vinculable a otra cuenta.
-- Confirmación de borrado al usuario.
-
----
-
-### **US-013 – Simulación de inversiones**
-
-**User Story:**
+### **US-010 – Simulación de inversiones**
 
 Como usuario, quiero acceder a un modo de simulación con dinero virtual para practicar inversiones sin riesgo.
 
 **Criterios de aceptación:**
 
-- Entorno de simulación separado del real.
-- Saldo ficticio inicial para practicar.
-- Operaciones funcionan igual que reales, sin impacto financiero.
+- Entorno de simulación con misma logica que el real.
+- Billetera ficticia para practicar.
 - Reinicio de simulación disponible en cualquier momento.
-- Cambios reflejados en pantalla en menos de 2 segundos.
+- Indicador de modo "Demo"
 
 ---
 
-### **US-014 – Verificación de autenticidad**
+### **COULD HAVE**
 
-**User Story:**
-
-Como usuario, quiero verificar mi identidad antes de realizar operaciones para garantizar la seguridad de mis fondos.
-
-**Criterios de aceptación:**
-
-- Solicitar verificación antes de cada operación (PIN, código o biometría).
-- Operación bloqueada si falla la verificación.
-- Registro del intento de verificación.
-- Elección del método preferido.
-- Cumplimiento de KYC sin exponer información sensible.
-
----
-
-### **US-015 – Integración con SSO**
-
-**User Story:**
-
-Como usuario, quiero iniciar sesión con mis cuentas externas (Google, Apple, etc.) para facilitar el acceso a la aplicación.
-
-**Criterios de aceptación:**
-
-- Autenticación mediante SSO.
-- Vinculación correcta si ya existe cuenta registrada.
-- Seguridad equivalente al login normal.
-- Posibilidad de desvincular cuenta externa.
-
----
-
-### **US-016 – Integración con billeteras virtuales**
-
-**User Story:**
-
-Como usuario, quiero vincular mi billetera virtual de criptomonedas con la aplicación para operar con activos digitales.
-
-**Criterios de aceptación:**
-
-- Vinculación con billeteras compatibles.
-- Visualización de saldo y movimientos.
-- Operaciones siguen reglas del sistema.
-- Mensaje claro si la vinculación falla.
-
----
-
-### **US-017 – Configuración de perfil de usuario (Preferencias de inversión)**
-
-**User Story:**
+### **US-011 – Configuración de perfil de inversión**
 
 Como usuario, quiero configurar mi perfil de inversión y preferencias para recibir recomendaciones acordes a mi nivel de riesgo.
 
@@ -588,22 +506,16 @@ Como usuario, quiero configurar mi perfil de inversión y preferencias para reci
 
 ---
 
-### **US-018 – Alertas de inversión**
+### **US-012 – Integración con billeteras externas**
 
-**User Story:**
-
-Como usuario, quiero recibir alertas de inversión personalizadas según mi perfil, para conocer oportunidades relevantes del mercado.
+Como usuario, quiero vincular mi billetera virtual de criptomonedas con la aplicación para operar con activos digitales.
 
 **Criterios de aceptación:**
 
-- Alertas basadas en datos y preferencias del usuario.
-- Elección de frecuencia: diaria o semanal.
-- Posibilidad de aceptar o ignorar la propuesta de alerta.
-  **Criterios de aceptación:**
-
-- El sistema debe ofrecer opciones de login con al menos Google y Apple.
-- Debe vincular las credenciales SSO con la cuenta existente si ya hay un registro previo.
-- Debe mantener el mismo nivel de seguridad y verificación que el login tradicional.
+- Vinculación y desvinculación de cuentas.
+- Visualización de saldo y movimientos.
+- Conexion y operaciones seguras.
+- Notificación si la vinculación falla.
 
 ---
 
